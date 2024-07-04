@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário de satisfação</title>
+    </head>
+    <body>
+        <h1>Formulário de satisfação: comércios alimentícios</h1>
+        <form method="post" action="processamento-do-formulário.html">
+            <section>
+                <h2>Seus dados pessoais:</h2>
+                <p>
+                <input type="text" placeholder="Nome">
+                </p>
+                <p>
+                <input type="email" placeholder="E-mail">
+                </p>
+                <p>
+                <input type="tel" placeholder="Telefone">
+                </p>
+            </section>
+            <section>
+                <h2>Formulário de satisfação:</h2>
+                <h3>Qual o seu nível de satisfação quanto a qualidade do atendimento?</h3>
+                <input type="radio" id="1" name="qualidade-do-atendimento">
+                <label for="1">1</label><br>
+                <input type="radio" id="2" name="qualidade-do-atendimento">
+                <label for="2">2</label><br>
+                <input type="radio" id="3" name="qualidade-do-atendimento">
+                <label for="3">3</label><br>
+                <input type="radio" id="4" name="qualidade-do-atendimento">
+                <label for="4">4</label><br>
+                <input type="radio" id="5" name="qualidade-do-atendimento">
+                <label for="5">5</label><br>
+
+                <h3>Qual o seu nível de satisfação quanto a qualidade do alimento?</h3>
+                    <input type="radio" id="1" name="qualidade-do-alimento">
+                <label for="1">1</label><br>
+                <input type="radio" id="2" name="qualidade-do-alimento">
+                <label for="2">2</label><br>
+                <input type="radio" id="3" name="qualidade-do-alimento">
+                <label for="3">3</label><br>
+                <input type="radio" id="4" name="qualidade-do-alimento">
+                <label for="4">4</label><br>
+                <input type="radio" id="5" name="qualidade-do-alimento">
+                <label for="5">5</label><br>
+
+                <h3><label for="lista">Qual desses estabelecimentos você possui preferência em frequentar?:</label></h3>
+                <select id="lista">
+                    <option>Estação Gourmet</option>
+                    <option>Restaurante e Bar Quintal</option>
+                    <option>Cantina Da Grazi</option>
+                    <option>Cantinho Mineiro da Bety</option>
+                    <option>Cozinha e Prosa - Bistrô</option>
+                    <option>Mas Qui Bom Lanches</option>
+                    <option>Friendship</option>
+                </select>
+                    <p>
+                    <input type="checkbox" id="autorização">
+                    <label for="autorização">Concordo em enviar os dados cedidos no fotmulário para que sejam processados.</label>
+                    </p>
+                    <p>
+                    <input type="submit" value="Enviar resposta">
+                    </p>
+            </section>
+        </form>
+    </body>
+</html>
