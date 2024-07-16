@@ -1,115 +1,12 @@
-body, h1, h2, h3, p, ul, li, a {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    color: white;
-}
-
-body {
-    background-color: #000;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-a {
-    color: magenta;
-}
-
-.page-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-header {
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-}
-
-header::before {
-    content: "";
-    display: block;
-    width: 100px;
-    height: 50px;
-    background-image: url('./1692389169458.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-}
-
-header h2 {
-    font-size: 1.5em;
-}
-
-.intro {
-    margin-bottom: 40px;
-}
-
-.intro p {
-    margin-bottom: 1em;
-}
-
-.main {
-    padding: 20px;
-    background-color: #111;
-    border-radius: 8px;
-    margin-bottom: 40px;
-}
-
-.main h3 {
-    font-size: 1.8em;
-    margin-bottom: 0.5em;
-}
-
-.main p {
-    margin-bottom: 1em;
-}
-
-.sidebar {
-    background-color: #222;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.sidebar h3 {
-    font-size: 1.5em;
-    margin-bottom: 1em;
-}
-
-.sidebar nav ul {
-    margin-bottom: 1em;
-}
-
-.sidebar nav ul li {
-    margin-bottom: 0.5em;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
-    border-top: 1px solid #333;
-}
-
-footer a {
-    margin: 0 10px;
-}
-
-@media (max-width: 768px) {
-    .page-wrapper {
-        padding: 10px;
-    }
-    
-    .sidebar {
-        margin-top: 20px;
-    }
-}
+html {background-color: black; color: rgba(255, 255, 255, 0.801); font-size: 18px; font-family: sans-serif;}
+p {text-indent: 1px;}
+a {color: magenta;}
+a:hover {color: rgb(204, 37, 204);}
+h1 {color: magenta; font-size: 1.8rem;}
+h2 {color: white; font-size: 1.4rem;}
+h3 {color: white; font-size: 1.2rem;}
+h1, h2,h3 {text-align: center;}
+p {text-indent: 1em;}
+.summary {text-align: center;}
+.main p {line-height: 1.5;}
+abbr {font-variant: small-caps;}
