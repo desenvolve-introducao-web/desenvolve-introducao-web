@@ -17,5 +17,5 @@ abbr {font-variant: small-caps;}
 /*no meu caso eu tenho que deixar o fundo claro e a fonte escura porque background black e font white já é o padrão do meu designe*/
 header {background-color: white; color: black;}
 aside ul li {list-style-type: none; margin: 1em; text-align: center;}
-footer {background-color: white; color: black; margi: 4%;}
-footer a {color: black; border: solid 2px; padding: 0.5em;}
+footer {background-color: white; color: black; margin: 4%;}
+footer a {color: black; border: solid 2px magenta; padding: 0.5em; display: inline-block;}
