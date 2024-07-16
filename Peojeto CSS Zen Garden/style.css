@@ -1,12 +1,21 @@
-html {background-color: black; color: rgba(255, 255, 255, 0.801); font-size: 18px; font-family: sans-serif;}
+html {background-color: black; color: rgba(255, 255, 255, 0.801); font-size: 18px; font-family: sans-serif; width: 80%; max-width: 1280px; margin: auto;}
 p {text-indent: 1px;}
 a {color: magenta;}
 a:hover {color: rgb(204, 37, 204);}
-h1 {color: magenta; font-size: 1.8rem;}
-h2 {color: white; font-size: 1.4rem;}
+/*intro:*/
+h1 {font-size: 1.8rem; color: rgba(151, 21, 151, 0.671); display: inline-block; margin-left: 1em; margin-right: 1em;}
+h2 {font-size: 1.4rem; color: black; display: inline-block;}
+
 h3 {color: white; font-size: 1.2rem;}
 h1, h2,h3 {text-align: center;}
 p {text-indent: 1em;}
 .summary {text-align: center;}
 .main p {line-height: 1.5;}
 abbr {font-variant: small-caps;}
+.intro {height: 550px;}
+#design-archives {display: none;}
+/*no meu caso eu tenho que deixar o fundo claro e a fonte escura porque background black e font white já é o padrão do meu designe*/
+header {background-color: white; color: black;}
+aside ul li {list-style-type: none; margin: 1em; text-align: center;}
+footer {background-color: white; color: black; margi: 4%;}
+footer a {color: black; border: solid 2px; padding: 0.5em;}
