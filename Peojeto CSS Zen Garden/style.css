@@ -19,3 +19,6 @@ header {background-color: white; color: black;}
 aside ul li {list-style-type: none; margin: 1em; text-align: center;}
 footer {background-color: white; color: black; margin: 4%;}
 footer a {color: black; border: solid 2px magenta; padding: 0.5em; display: inline-block;}
+.page-wrapper {position: relative;}
+.explanation {width: 60%; margin-right: 35%; border-right: 1px #1f295c; padding-right: 2%;}
+#design-selection {position: absolute; top: 560px; left: 62%; padding-top: 2%;}
