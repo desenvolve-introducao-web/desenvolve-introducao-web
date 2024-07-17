@@ -12,9 +12,14 @@ p {
 }
 a {
     color: magenta;
+    font-weight: bold;
 }
 a:hover {
     color: rgb(204, 37, 204);
+}
+a:visited {
+    color: rgba(219, 143, 219, 0.952);
+    font-weight:normal;
 }
 /*intro:*/
 h1 {
@@ -37,14 +42,16 @@ h3 {
 h1, h2,h3 {
     text-align: center;
 }
-p {
-    text-indent: 1em;
-}
 .summary {
     text-align: center;
 }
 .main p {
     line-height: 1.5;
+}
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:left;
 }
 abbr {
     font-variant: small-caps;
@@ -96,9 +103,18 @@ footer a {
 }
 #design-selection {
     position: absolute;
-    top: 520px;
+    top: 460px;
     left: 62%;
     padding-top: 2%;
+    border-left: solid rgba(255, 255, 255, 0.582) 1px;
+}
+#design-selection:last-of-type {
+    border-bottom: rgba(255, 255, 255, 0.582) 1px solid;
+    padding-bottom: 5px;
+}
+#design-selection li {
+    border: rgba(255, 255, 255, 0.582) 1px solid;
+    padding-bottom: 5px;
 }
 .benefits {
     display: flex;
