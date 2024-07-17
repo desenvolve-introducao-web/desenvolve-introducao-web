@@ -1,7 +1,127 @@
-a {color: red;}
-a:hover {color: #ADC300;}
-p {font-family: Arial;}
-h1+p {font-weight: bold;}
-.destaque {font-family: Arial;}
-p.destaque {font-weight: bold;}
-strong.destaque {color: red;}
+html {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+p {
+    text-indent: 1px;
+}
+a {
+    color: magenta;
+}
+a:hover {
+    color: rgb(204, 37, 204);
+}
+/*intro:*/
+h1 {
+    font-size: 1.8rem;
+    color: rgba(151, 21, 151, 0.671);
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+h2 {
+    font-size: 1.4rem;
+    color: black;
+    display: inline-block;
+}
+
+h3 {
+    color: white;
+    font-size: 1.2rem;
+}
+h1, h2,h3 {
+    text-align: center;
+}
+p {
+    text-indent: 1em;
+}
+.summary {
+    text-align: center;
+}
+.main p {
+    line-height: 1.5;
+}
+abbr {
+    font-variant: small-caps;
+}
+.intro {
+    height: 550px;
+}
+#design-archives {
+    display: none;
+}
+/*no meu caso eu tenho que deixar o fundo claro e a fonte escura porque background black e font white já é o padrão do meu designe*/
+header {
+    background-color: white;
+    color: black;
+}
+aside ul li {
+    list-style-type: none;
+    margin: 1em;
+    text-align: center;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    margin: 4%;
+    display:flex;
+    justify-content: space-evenly;
+     border-color: magenta;
+     flex-wrap: wrap;
+    }
+footer a {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: solid 2px magenta;
+    padding: 0.5em;
+    display: inline-block;
+    font-size: large;
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+}
+.page-wrapper {
+    position: relative;
+}
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px #1f295c;
+    padding-right: 2%;
+}
+#design-selection {
+    position: absolute;
+    top: 520px;
+    left: 62%;
+    padding-top: 2%;
+}
+.benefits {
+    display: flex;
+    border-bottom: solid rgba(255, 255, 255, 0.582) 1px;
+    border-top: solid rgba(255, 255, 255, 0.582) 1px;
+}
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}
+.benefits p {
+    flex-basis: 70%;
+}
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid rgba(255, 255, 255, 0.582) 1px;
+    border-top: solid rgba(255, 255, 255, 0.582) 1px;
+}
+.participation h3, .participation p {
+    flex-basis: 50%;
+}
+.participation h3 {
+    align-self: center;
+}
