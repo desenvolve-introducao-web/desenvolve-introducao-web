@@ -64,7 +64,7 @@ abbr {
 }
 /*no meu caso eu tenho que deixar o fundo claro e a fonte escura porque background black e font white já é o padrão do meu designe*/
 header {
-    background-color: white;
+    background-color: rgb(59, 12, 59);
     color: black;
 }
 aside ul li {
@@ -140,4 +140,48 @@ footer a {
 }
 .participation h3 {
     align-self: center;
+}
+@media screen and (max-width: 768px) {
+    #design-selection {
+        position: static;
+        width: 100%;
+    }
+    .explanetion {
+        border-right: none;
+    width: 100%;
+    }
+    #zen-intro {
+        height: auto;
+    }
+
+    .participation {
+        flex-direction: column;
+    }
+
+    p {
+        text-indent: 0;
+    }
+}
+@media print {
+    html {
+        font-family:serif
+    }
+    header {
+        background-color: white;
+        color: black;
+    }
+    html {
+        background-color: white;
+    }
+    #design-selection {
+        position: static;
+        width: 100%;
+    }
+    .explanetion {
+        border-right: none;
+    width: 100%;
+    }
+    #zen-intro {
+        height: auto;
+    }
 }
