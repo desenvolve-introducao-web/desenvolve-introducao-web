@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquarismo RP</title>
+    <!-- Link para o arquivo CSS principal -->
+    <link href="desafio.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Seção do cabeçalho -->
+        <section class="header-content">
+            <!-- Logo e título -->
+            <div class="header-logo">
+                <img src="oooo.jpg" id="logo" alt="Logo da Aquarismo RP">
+                <h1>AQUARISMO RP - CONHEÇA A BIO AQUÁTICA</h1>
+            </div>
+            <!-- Imagens adicionais no cabeçalho -->
+            <div class="header-images">
+                <img src="peixo.jpg" class="início" alt="Imagem de um Peixe 1">
+                <img src="pêche.jpg" class="início" alt="Imagem de um Peixe 2">
+            </div>
+            <!-- Texto descritivo no cabeçalho -->
+            <div class="header-text">
+                <p>Transforme seu ambiente com a beleza e a serenidade dos aquários - descubra nosso mundo aquático hoje!</p>
+            </div>
+        </section>
+        <!-- Navegação do site -->
+        <nav>
+            <a href="#logo">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#serviços">Serviços</a>
+            <a href="#sobre_nós">Sobre nós</a>
+            <a href="#time">Time</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <!-- Botão para alternar o modo escuro -->
+        <button id="darkModeToggle">Alternar Modo Escuro</button>
+    </header>
+    <main>
+        <!-- Seção de Produtos -->
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <!-- Primeiro artigo de produto -->
+            <article>
+                <h3>Aquários</h3>
+                <img class="a" src="shutterstock_1155427981.jpg" alt="Aquário Cristalino">
+                <h4>Aquário Cristalino</h4>
+                <p>Estrutura em vidro cristalino com bordas polidas para uma visualização perfeita de todos os ângulos. Mantém a água limpa e saudável, garantindo um ambiente ideal para seus peixes e plantas aquáticas.</p>
+                <strong>Preço: R$ 500,00</strong>
+                <a href="#"><button>Interessado</button></a>
+            </article>
+            <!-- Segundo artigo de produto -->
+            <article>
+                <h3>Animais</h3>
+                <img class="a" src="brabo.jpg" alt="Peixe Disco">
+                <h4>Peixe Disco</h4>
+                <p>O peixe disco é uma das espécies mais fascinantes e procuradas no mundo do aquarismo. Originário da bacia amazônica, este peixe de água doce é conhecido por suas cores vibrantes e formato arredondado. Eles são apreciados tanto por aquaristas iniciantes quanto por experientes devido à sua beleza e comportamento gracioso.</p>
+                <strong>Preço: R$ 150,00</strong>
+                <a href="#" id="serviços"><button>Interessado</button></a>
+            </article>
+        </section>
+        <!-- Seção de Serviços -->
+        <section>
+            <h2>Serviços</h2>
+            <!-- Primeiro artigo de serviço -->
+            <article>
+                <img class="a" src="aqa.jpg" alt="Manutenção e limpeza de aquários">
+                <h3>Manutenção e limpeza</h3>
+                <p>Nosso serviço de manutenção e limpeza de aquários é projetado para garantir que seu aquário esteja sempre em condições ideais, proporcionando um ambiente saudável e bonito para seus peixes e plantas aquáticas. Entendemos a importância de um aquário bem cuidado e oferecemos serviços completos para atender todas as suas necessidades de manutenção.</p>
+                <strong>Preço: R$ 100,00</strong>
+                <a href="#"><button>Interessado</button></a>
+            </article>
+            <!-- Segundo artigo de serviço -->
+            <article>
+                <h3>Veterinária</h3>
+                <img class="a" src="q.jpg" alt="Consultoria Veterinária">
+                <p>Nossa clínica veterinária oferece cuidados abrangentes e de alta qualidade para garantir a saúde e o bem-estar de seus animais. Com uma equipe de veterinários experientes e dedicados, estamos comprometidos em fornecer atendimento personalizado e profissional para cada paciente, desde consultas de rotina até procedimentos especializados.</p>
+                <strong>Preço: R$ 200,00</strong>
+                <a href="#" id="sobre_nós"><button>Interessado</button></a>
+            </article>
+        </section>
+        <!-- Seção sobre a empresa -->
+        <section>
+            <h2>Sobre nós</h2>
+            <p>Nós somos uma loja especializada em aquarismo, dedicada a fornecer produtos e serviços de alta qualidade para entusiastas de aquários, desde iniciantes até aquaristas experientes. Com uma paixão profunda pelo mundo aquático, nossa missão é ajudar você a criar e manter aquários saudáveis, belos e vibrantes.</p>
+            <h3>Nossa Missão</h3>
+            <p id="time">Oferecer produtos de qualidade, serviços especializados e suporte contínuo para garantir que seus aquários sejam ambientes prósperos e encantadores. Estamos comprometidos em compartilhar nosso conhecimento e paixão pelo aquarismo, ajudando nossos clientes a alcançar seus objetivos com sucesso.</p>
+        </section>
+        <!-- Seção sobre o time -->
+        <section>
+            <h2>Time</h2>
+            <div>
+                <img class="a" src="A-importancia-do-trabalho-em-equipe.jpg" alt="Importância do trabalho em equipe">
+                <ul>
+                    <li>João Silva - Especialista em Aquarismo</li>
+                    <li>Maria Fernandes - Técnica em Manutenção</li>
+                    <li>Carlos Nascimento - Especialista em Plantas Aquáticas</li>
+                    <li id="contato">Ana Paula Souza - Consultora de Vendas</li>
+                </ul>
+            </div>
+        </section>
+        <!-- Seção de contato -->
+        <section>
+            <h2>Entre em contato</h2>
+            <form action="enviar_mensagem.php" method="post">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <!-- Rodapé da página -->
+    <footer>
+        <p>Desenvolvido por Ryan Pablo Araújo de Souza - PDBD093</p>
+    </footer>
+    <!-- Link para o arquivo JavaScript principal -->
+    <script src="desafio.js"></script>
+</body>
+</html>
