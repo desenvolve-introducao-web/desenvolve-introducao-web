@@ -1,0 +1,7 @@
+print("Escolha a classe (guerreiro, mago ou arqueiro):")
+personagem = input()
+print("Digite os pontos de força (de 1 a 20):")
+força = int(input())
+print("Digite os pontos de magia (de 1 a 20):")
+magia = int(input())
+print ("Pontos de atributo consistentes com a classe escolhida:", (personagem == "gurreiro" or personagem == "Guerreiro" or personagem == "GUERREIRO" and força >= 15 and magia <= 10 and magia > 0 and força < 21) or (personagem == "mago" or personagem == "Mago" or personagem == "MAGO"  and força <= 10 and força > 0 and magia >= 15 and magia < 21) or (personagem == "arqueiro" or personagem == "ARQUEIRO" or personagem == "Arqueiro" and força > 5 and magia > 5 and força <= 15 and magia <= 15))

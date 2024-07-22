@@ -1,0 +1,5 @@
+idade = int(input("Insira sua idade: "))
+genero = input("Insira seu gênero (F para feminino ou M para masculino): ")
+tempo = int(input("Insira seu tempo de serviço (em anos): "))
+print("Pode posentar?:")
+print((genero == "F" or genero == "f" and idade > 60) or (idade == 60 and tempo > 24) or (genero == "M" or genero == "m" and idade > 65))

@@ -1,0 +1,12 @@
+print("Primeiro produto:")
+nome1 = input("Digite o nome do produto 1: ")
+preço1 = float(input("Digite o preço unitário do produto 1: "))
+quantidade1 = int(input(f"Digite a quantidade do produto 1: "))
+nome2 = input("Digite o nome do produto 2: ")
+preço2 = float(input("Digite o preço unitário do produto 2: "))
+quantidade2 = int(input("Digite a quantidade do produto 2: "))
+nome3 = input("Digite o nome do produto 3: ")
+preço3 = float(input("Digite o preço unitário do produto 3: "))
+quantidade3 = int(input("Digite a quantidade do produto 3: "))
+total = preço1 * quantidade1 + preço2 * quantidade2 + preço3 * quantidade3
+print(f"Total: R${total:,.2f}")
